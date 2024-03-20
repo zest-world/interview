@@ -23,15 +23,15 @@ Use a provided skeleton repository or setup your own web application to complete
 2. A link to the live demo or the app running locally for a walkthrough call
 3. Be prepared to discuss explanations of the design trade-offs you made
 
-### **Front-end focus: Add an audio player for TTS **
+### **Front-end focus: Add an audio player for TTS**
 
 The user should be able to play audio for the text within each of the various report sections. The user should be able to pause and resume the audio. You are free to use a TTS API of your choice (but the skeleton uses OpenAI) and free to design the user interface as you see fit.
 
-### **Back-end focus: Server side audio generation **
+### **Back-end focus: Server side audio generation**
 
 Since the TTS API is likely a third-party service, you may want to consider server-side audio generation to avoid exposing the API key on the client. This is a good opportunity to demonstrate your ability to make design trade-offs. Move the TTS API call to the server and generate the audio file on the server. The client should then be able to download the audio file and play it.
 
-### **Bonus: Implement continuous highlighting on spoken text **
+### **Bonus: Implement continuous highlighting on spoken text**
 
 The text on the web page should highlight with the audio. The user should be able to see which part of the text is currently being spoken and the highlighting should move as the audio progresses.
 
