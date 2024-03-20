@@ -12,6 +12,8 @@ What we look for in the output:
 
 This assignment is designed to test your ability to build a tangible feature with a semi-contrained, semi-openended prompt. There's a range of considerations, including third-party API integration, determining a good user experience, and evaluating trade-offs.
 
+![image](https://github.com/zest-world/interview/assets/4218998/5b297cc2-6fab-4f52-8ce8-2f2487d8310c)
+
 Use the provided skeleton repository or setup your own web application to complete the assignment. The goal is to add an image generation support for the web page that displays a Coverage Report. A static JSON file with the text for the sections is provided, so you can focus on the image generation. The user should be able to see generated images for characters and for the script.
 
 ## Deliverables
@@ -20,15 +22,15 @@ Use the provided skeleton repository or setup your own web application to comple
 2. A link to the live demo or the app running locally for a walkthrough call
 3. Be prepared to discuss explanations of the design trade-offs you made
 
-### **Front-end focus: Add inspiration images for characters **
+### **Front-end focus: Add inspiration images for characters**
 
 The coverage report includes a section called `Character Breakdown`. For the characters in this section, the user should be able to see the images representing the likeness of that character description. You are free to use an Image Generation API of your choice (but the skeleton uses OpenAI) and free to design the user experience as you see fit.
 
-### **Back-end focus: Server side image generation **
+### **Back-end focus: Server side image generation**
 
 Since the Image Generation API is likely a third-party service, you may want to consider server-side generation to avoid exposing the API key on the client. This is a good opportunity to demonstrate your ability to make design trade-offs. Move the API call to the server and generate the image files on the server. The client should be able to access the image files and display them.
 
-### **Bonus: Add a Storyboard for the Script **
+### **Bonus: Add a Storyboard for the Script**
 
 Using the synopsis section, generate a storyboard that visualizes the script. The user should be able to see the storyboard for the script. You are free to design the user experience as you see fit.
 
