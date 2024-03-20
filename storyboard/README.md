@@ -19,19 +19,20 @@ Use the provided skeleton repository or setup your own web application to comple
 1. Instructions on how to access & download the code for your submission
 2. A link to the live demo or the app running locally for a walkthrough call
 3. Be prepared to discuss explanations of the design trade-offs you made
+4. Bonus sections are not required, if you have time and want extend the assignment, feel free to implement them
 
-### **Front-end focus: Add inspiration images for characters **
+### **Main Focus: Add inspiration images for characters**
 
 The coverage report includes a section called `Character Breakdown`. For the characters in this section, the user should be able to see the images representing the likeness of that character description. You are free to use an Image Generation API of your choice (but the skeleton uses OpenAI) and free to design the user experience as you see fit.
 
-### **Back-end focus: Server side image generation **
+### **Improvement: Optimize image generation**
 
-Since the Image Generation API is likely a third-party service, you may want to consider server-side generation to avoid exposing the API key on the client. This is a good opportunity to demonstrate your ability to make design trade-offs. Move the API call to the server and generate the image files on the server. The client should be able to access the image files and display them.
+Since the Image Generation API is likely a third-party service, you may want to consider server-side generation to avoid exposing the API key on the client. Alternatively, image generation may be slow, so you may want to consider how to handle the time it takes to generate the images. Depending on your application, make design trade-offs to optimize the image generation and improve the overall user experience.
 
-### **Bonus: Add a Storyboard for the Script **
+### **Bonus: Add a Storyboard for the Script [Extra Credit]**
 
 Using the synopsis section, generate a storyboard that visualizes the script. The user should be able to see the storyboard for the script. You are free to design the user experience as you see fit.
 
 ### **Bonus: Regenerate Images [Extra Credit]**
 
-Provide the user with the ability to regenerate an image for a character or storyboard item if they are not satisfied with the initial image. This can be done on the client or server side, but the user should be able to regenerate the image of their choosing. When the user regenerates an image, the new image should be displayed in place of the old image. Optionally, you can provide the user with the ability to specify what they want to change about the image.
+Provide the user with the ability to regenerate an image for a character or storyboard item if they are not satisfied with the initial image. Additionally, the user should be able to specify what they want to change about the image. This can be done on the client or server side, but the user should be able to regenerate the image of their choosing. When the user regenerates an image, the new image should be displayed in place of the old image.

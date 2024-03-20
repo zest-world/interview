@@ -1,4 +1,4 @@
-# Avail by Zestworld Engineering take home interview
+# Avail by Zestworld Engineering Take Home
 
 ## About the team & role
 
@@ -8,7 +8,7 @@ We’re looking for curiosity-driven software engineers excited to build collabo
 
 ## The interview challenges
 
-As part of the hiring process, we use a take home exercise that's fun, interesting, and provides our team with better insight. Most development work requires solving semi-specific in semi-constrained timeframe with external resources, we want to mimic the expectations we follow ourselves by providing candidates with semi-broad scope and some requirements but the autonomy to uniquely craft their own solution and deliver it.
+As part of the hiring process, we use a take home exercise that's fun, interesting, and provides our team with better insights about candidates. Most real-world development work requires solving semi-specific problems in semi-constrained timeframes with access to external resources. We want our assignment to reflect the same scenarios & use the same expectations that we follow ourselves. We hope that by providing simple requirements with semi-openended scope allows individuals the autonomy to uniquely craft their own solution while still delivering on the overall goal.
 
 What we look for in the output:
 
