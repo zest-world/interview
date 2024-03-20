@@ -12,6 +12,9 @@ What we look for in the output:
 
 This assignment is designed to test your ability to build a tangible feature with a semi-contrained, semi-openended prompt. There's a range of considerations, including third-party API integration, determining a good user experience, and evaluating trade-offs.
 
+![image](https://github.com/zest-world/interview/assets/4218998/5dc5101c-70d9-4533-af0d-8bb02eb711bd)
+
+
 Use a provided skeleton repository or setup your own web application to complete the assignment. The goal is to add text-to-speech (TTS) support to a web page that displays a Coverage Report. A static JSON file with the text for the sections of a coverage report and the original script are provided, so you can focus on the text-to-speech. The user should be able to play audio for the text within each of the various report sections.
 
 ### Deliverables
