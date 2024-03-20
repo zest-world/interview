@@ -12,6 +12,8 @@ What we look for in the output:
 
 This assignment is designed to test your ability to build a tangible feature with a semi-contrained, semi-openended prompt. There's a range of considerations, including third-party API integration, determining a good user experience, and evaluating trade-offs.
 
+![image](https://github.com/zest-world/interview/assets/4218998/5b297cc2-6fab-4f52-8ce8-2f2487d8310c)
+
 Use the provided skeleton repository or setup your own web application to complete the assignment. The goal is to add an image generation support for the web page that displays a Coverage Report. A static JSON file with the text for the sections is provided, so you can focus on the image generation. The user should be able to see generated images for characters and for the script.
 
 ## Deliverables
