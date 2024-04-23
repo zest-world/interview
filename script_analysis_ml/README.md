@@ -1,8 +1,10 @@
+# NOT READY FOR USE
+
+⚠️ **Warning:** This question is still under development and is not considered an available option to candidates.
+
 # Machine Learning Engineer Assignment Overview
 
-As part of the hiring process, we use a take home exercise that's fun, interesting, and provides our team with better insight. Most development work requires solving semi-specific in semi-constrained timeframe with external resources, we want to mimic the expectations we follow ourselves by providing candidates with semi-broad scope and some requirements but the autonomy to uniquely craft their own solution and deliver it.
-
-What we look for in the output:
+...
 
 - It works - we want to be able to see a demo and review the submission with you
 - Code quality - is it stable, reliable, and organized appropriately

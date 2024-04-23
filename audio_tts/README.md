@@ -35,6 +35,10 @@ Since the TTS API is likely a third-party service, you may want to consider serv
 
 The text on the web page should highlight with the audio. The user should be able to see which part of the text is currently being spoken and the highlighting should move as the audio progresses.
 
+### **Bonus: Create music to accompany the report [Extra Credit]**
+
+Using the script associated with the report, provide the user with samples or recommendation of music inspired by the script. You are free to design the user interface as you see fit. The user should be able to play the music samples.
+
 ### **Bonus: Create an automated script voiceover [Extra Credit]**
 
 Using the script associated with the report, provide the user with the ability to play audio for the entire script and use different voices for the dialogue of each character. You are free to design the user interface as you see fit. The user should be able to pause and resume the audio.
