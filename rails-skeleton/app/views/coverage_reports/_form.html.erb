@@ -1,0 +1,47 @@
+<%= form_with(model: coverage_report) do |form| %>
+  <% if coverage_report.errors.any? %>
+    <div style="color: red">
+      <h2><%= pluralize(coverage_report.errors.count, "error") %> prohibited this coverage_report from being saved:</h2>
+
+      <ul>
+        <% coverage_report.errors.each do |error| %>
+          <li><%= error.full_message %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div>
+    <%= form.label :title, style: "display: block" %>
+    <%= form.text_field :title %>
+  </div>
+
+  <div>
+    <%= form.label :logline, style: "display: block" %>
+    <%= form.text_area :logline %>
+  </div>
+
+  <div>
+    <%= form.label :genres, style: "display: block" %>
+    <%= form.text_area :genres %>
+  </div>
+
+  <div>
+    <%= form.label :tone, style: "display: block" %>
+    <%= form.text_area :tone %>
+  </div>
+
+  <div>
+    <%= form.label :character_breakdown, style: "display: block" %>
+    <%= form.text_area :character_breakdown %>
+  </div>
+
+  <div>
+    <%= form.label :synopsis, style: "display: block" %>
+    <%= form.text_area :synopsis %>
+  </div>
+
+  <div>
+    <%= form.submit %>
+  </div>
+<% end %>

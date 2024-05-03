@@ -1,0 +1,11 @@
+<p style="color: green"><%= notice %></p>
+<div data-controller="coverage-reports">
+  <%= render @coverage_report %>
+
+  <div>
+    <%= link_to "Edit this coverage report", edit_coverage_report_path(@coverage_report) %> |
+    <%= link_to "Back to coverage reports", coverage_reports_path %>
+
+    <%= button_to "Destroy this coverage report", @coverage_report, method: :delete %>
+  </div>
+</div>

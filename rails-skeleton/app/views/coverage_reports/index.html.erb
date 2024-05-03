@@ -1,0 +1,13 @@
+<p style="color: green"><%= notice %></p>
+
+<h1>Coverage reports</h1>
+
+<div id="coverage_reports">
+  <% @coverage_reports.each do |coverage_report| %>
+    <p>
+      <%= link_to "#{coverage_report.title} coverage report", coverage_report %>
+    </p>
+  <% end %>
+</div>
+
+<%= link_to "New coverage report", new_coverage_report_path %>
